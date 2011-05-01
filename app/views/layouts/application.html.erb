@@ -4,6 +4,7 @@
     <title><%= title %></title>
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
+	<%= debug(params) if Rails.env.development? %>
   </head>
   <body>
     <div class="container">

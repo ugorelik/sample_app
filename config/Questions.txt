@@ -1,0 +1,5 @@
+Shit I don't Get
+
+	Resources in Routes
+	Render Views in tests
+	Factory for users

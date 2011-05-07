@@ -207,5 +207,12 @@ div.field, div.actions {
 	border-color:#97aa7c;
 }
 
+.error
+{
+	background: #fbe8e9;
+	color: #fccfd1;
+	border-color:#fccfd1;
+}
+
 
 

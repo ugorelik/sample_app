@@ -1,0 +1,7 @@
+<% unless @feed_items.empty? %>
+  <table class="microposts" summary="User microposts">
+    <%= render :partial => 'shared/feed_item', :collection => @feed_items %>
+	<% # We couldn't do render feed_item directly because had to pass the collection parameter as well'%>
+  </table>
+  <%= will_paginate @feed_items %>
+<% end %>

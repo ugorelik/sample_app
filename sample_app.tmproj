@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>lib/tasks/sample_data.rake</string>
+	<string>spec/requests/microposts_spec.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -20,47 +20,60 @@
 			<key>filename</key>
 			<string>config/Questions.txt</string>
 			<key>lastUsed</key>
-			<date>2011-05-07T15:19:44Z</date>
+			<date>2011-05-08T14:58:59Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>181</integer>
 	<key>metaData</key>
 	<dict>
-		<key>lib/tasks/sample_data.rake</key>
+		<key>app/controllers/microposts_controller.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>53</integer>
+				<integer>51</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>2</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
+		</dict>
+		<key>config/Questions.txt</key>
+		<dict>
+			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>28</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>29</integer>
 			</dict>
-			<key>selectTo</key>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>3</integer>
+		</dict>
+		<key>spec/requests/microposts_spec.rb</key>
+		<dict>
+			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>53</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>14</integer>
+				<integer>41</integer>
 			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>lib/tasks/sample_data.rake</string>
+		<string>app/controllers/microposts_controller.rb</string>
+		<string>spec/requests/microposts_spec.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>

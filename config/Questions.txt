@@ -8,3 +8,23 @@ Missed Exercises
 	
 	9 - HTTPS and whatnot
 	10
+	
+Shit I found out
+
+	attr_accesible simple means that it can be access and changed through the browser
+	
+	The bang method for create does the same thing except it throws an exception. This is useful for testing since we don't have to evaluate a boolean expression. Test fail upon exceptions being thrown. We could use the non bang version and then check if it was created successfully.
+	
+	We use factories because they let us bypass a lot of things that we aren't supposed to. Stuff like attr_accessible (which are attributes that can be set through a browser). 
+		For instance we can directly set a user to be an admin by doing:
+		
+		User.create!(:name => "Foo Bar", :email => "foobar@example.com"
+					 :password => "foobar", password-confirmation=> "foobar",
+					 :admin => 1)
+					
+		Normally the 'admin => 1' wouldn't do anything but a factory ignores it and allows it to be done.
+		
+		Good for testing.
+		
+	
+	

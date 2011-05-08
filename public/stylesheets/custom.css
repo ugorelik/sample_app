@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #cff;
+  background: #aba;
 }
 
 header {
@@ -188,31 +188,10 @@ div.field, div.actions {
   list-style: square;
 }
 
-/* My custom flash stuff*/
-
-.flash
-{
-	margin: 0 auto;
-	border-style: solid;
-	border-width: 2px;
-	padding:20px;
-	margin-bottom:10px;
-	
+ul.users {
+  margin-top: 1em;
 }
 
-.success
-{
-	background: #ecf4d6;
-	color: #97aa7c;
-	border-color:#97aa7c;
+.users li {
+  list-style: none;
 }
-
-.error
-{
-	background: #fbe8e9;
-	color: #fccfd1;
-	border-color:#fccfd1;
-}
-
-
-

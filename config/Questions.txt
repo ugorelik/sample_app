@@ -3,3 +3,8 @@ Shit I don't Get
 	Resources in Routes
 	Render Views in tests
 	Factory for users
+	
+Missed Exercises
+	
+	9 - HTTPS and whatnot
+	10

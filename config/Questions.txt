@@ -3,6 +3,7 @@ Shit I don't Get
 	Resources in Routes
 	Render Views in tests
 	Factory for users
+	STOPPED AT 12.3
 	
 Missed Exercises
 	
